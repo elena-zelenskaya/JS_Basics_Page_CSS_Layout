@@ -19,6 +19,9 @@ body {
     width:970px;
     color:#c2d6eb;
     padding:10px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 header {
     background-color: #cf3036;
@@ -26,23 +29,22 @@ header {
     border-radius: 10px;
     font-size: 30px;
     margin-bottom: 15px;
+    flex-basis: 100%;
 }
 nav {
     background-color: #297d8c;
-    display: inline-block;
-    vertical-align: top;
     width:180px;
     border-radius: 20px;
     padding:15px;
     margin-right:20px;
+    flex-basis: auto;
 }
 main {
     background-color: #0e1822;
-    display: inline-block;
-    vertical-align: top;
-    width:705px;
+    width:710px;
     border-radius: 20px;
     padding:15px;
+    flex-basis: auto;
 }
 
 footer {
@@ -50,6 +52,7 @@ footer {
     border-radius: 20px;
     padding:15px;
     margin-top: 15px;
+    flex-basis: 100%;
 }
 
 li {
